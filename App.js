@@ -58,7 +58,7 @@ const App = () =>{
               <TextInput 
               style={styles.input}
               keyboardType="numeric"
-              placeholder="Enter Value"
+              placeholder="Enter INR "
               placeholderTextColor="#c1c1c1"
               value={inputValue}
               onChangeText={(inputValue) => setInputValue(inputValue)}
